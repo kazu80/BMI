@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC09F6CF1778825100DAAA6F /* skinny.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FC09F6CE1778825100DAAA6F /* skinny.m4a */; };
+		FC09F6D11778829900DAAA6F /* normal.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FC09F6D01778829900DAAA6F /* normal.m4a */; };
+		FC09F6D3177882BC00DAAA6F /* fat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FC09F6D2177882BC00DAAA6F /* fat.m4a */; };
 		FCC9C0C71775C5D3000E4C71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC9C0C61775C5D3000E4C71 /* UIKit.framework */; };
 		FCC9C0C91775C5D3000E4C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC9C0C81775C5D3000E4C71 /* Foundation.framework */; };
 		FCC9C0CB1775C5D3000E4C71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC9C0CA1775C5D3000E4C71 /* CoreGraphics.framework */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC09F6CE1778825100DAAA6F /* skinny.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = skinny.m4a; sourceTree = "<group>"; };
+		FC09F6D01778829900DAAA6F /* normal.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = normal.m4a; sourceTree = "<group>"; };
+		FC09F6D2177882BC00DAAA6F /* fat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = fat.m4a; sourceTree = "<group>"; };
 		FCC9C0C31775C5D3000E4C71 /* BmiSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BmiSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC9C0C61775C5D3000E4C71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCC9C0C81775C5D3000E4C71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,8 +112,11 @@
 		FCC9C0CD1775C5D3000E4C71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC09F6D2177882BC00DAAA6F /* fat.m4a */,
 				FCC9C0E91775D8EE000E4C71 /* fat.aif */,
+				FC09F6D01778829900DAAA6F /* normal.m4a */,
 				FCC9C0EA1775D8EE000E4C71 /* normal.aif */,
+				FC09F6CE1778825100DAAA6F /* skinny.m4a */,
 				FCC9C0EB1775D8EE000E4C71 /* skinny.aif */,
 				FCC9C0CE1775C5D3000E4C71 /* BmiSample-Info.plist */,
 				FCC9C0CF1775C5D3000E4C71 /* InfoPlist.strings */,
@@ -179,6 +188,9 @@
 				FCC9C0EC1775D8EE000E4C71 /* fat.aif in Resources */,
 				FCC9C0ED1775D8EE000E4C71 /* normal.aif in Resources */,
 				FCC9C0EE1775D8EE000E4C71 /* skinny.aif in Resources */,
+				FC09F6CF1778825100DAAA6F /* skinny.m4a in Resources */,
+				FC09F6D11778829900DAAA6F /* normal.m4a in Resources */,
+				FC09F6D3177882BC00DAAA6F /* fat.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +326,7 @@
 				FCC9C0E81775C5D3000E4C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
