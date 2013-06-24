@@ -32,7 +32,7 @@
 
 - (void)sound:(NSString *)file
 {
-    NSURL * url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:file ofType:@"aif"]];
+    NSURL * url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:file ofType:@"m4a"]];
     _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
     [_audioPlayer play];
 }
